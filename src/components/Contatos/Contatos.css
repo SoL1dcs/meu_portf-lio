@@ -1,0 +1,38 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20%;
+}
+
+h3{
+    font-size: 3vw;
+}
+#email{
+    background-color: red;
+}
+.fotoSocial{
+    min-width: 25vw;
+}
+
+#contatoMobile , #contato{
+    display: none;
+}
+
+#contatoMobile{
+    flex-direction: column;
+}
+
+@media (min-width:768px) {
+    #contato{
+        display:block;
+    }
+}
+@media (max-width:768px){
+    #contatoMobile{
+        display: flex;
+    }
+}
+#gmailMobile{
+    background-color: red;
+}

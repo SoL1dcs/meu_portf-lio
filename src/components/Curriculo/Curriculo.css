@@ -1,0 +1,13 @@
+#cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#fotoCurriculo{
+    border-radius: 0;
+    height: 1500px;
+}
+h3{
+    font-size: 3vw;
+}
