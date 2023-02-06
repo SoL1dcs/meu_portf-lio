@@ -9,14 +9,16 @@ function NavBar(){
     return(
         <div>
         <div id='container'>
-            <p id='home'>SoL1d-</p>
+            <div>
+                <p id='home'>SoL1d-</p>
+            </div>
             <div id='containerSon'>
-                <Link to={'Sobre'}>Sobre Mim</Link>
-                <Link to={'Conhecimentos'}>Conhecimentos</Link>
-                <Link to={'Blog'}>Blog</Link>
-                <Link to={'Curriculo'}>Currículo</Link>
-                <Link to={'gitHub'}>GitHub</Link>
-                <Link to={'contatos'}>Contatos</Link>
+                <Link to={'Sobre'}><p>Sobre Mim</p></Link>
+                <Link to={'Conhecimentos'}><p>Conhecimentos</p></Link>
+                <Link to={'Blog'}><p>Blog</p></Link>
+                <Link to={'Curriculo'}><p>Currículo</p></Link>
+                <Link to={'gitHub'}><p>GitHub</p></Link>
+                <Link to={'contatos'}><p>Contatos</p></Link>
             </div>
         </div>
         <div id='containerMobilie'>
@@ -27,3 +29,15 @@ function NavBar(){
     )
 }
 export default NavBar
+
+/*
+<p id='home'>SoL1d-</p>
+    <div id='containerSon'>
+        <Link to={'Sobre'}><p>Sobre Mim</p></Link>
+        <Link to={'Conhecimentos'}><p>Conhecimentos</p></Link>
+        <Link to={'Blog'}><p>Blog</p></Link>
+        <Link to={'Curriculo'}><p>Currículo</p></Link>
+        <Link to={'gitHub'}><p>GitHub</p></Link>
+        <Link to={'contatos'}><p>Contatos</p></Link>
+    </div>
+*/

@@ -1,3 +1,45 @@
+#contatosContainer{
+    display: flex;
+    text-align: center;
+    margin: 9% 10% 6%;
+}
+#contatosContainer div{
+    min-width: 21vw;
+    padding: 10px 0.1vw;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#contatosContainer img , #contatosContainer button {
+    max-height: 50%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.nomeRede{
+    color: black;
+    font-size: 2.2vw;
+    margin-bottom: 15px;
+}
+.nickRede{
+    color: black;
+    font-size: 1.4vw;
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    #contatosContainer{
+        display: block;
+        margin: 0 10%;
+    }
+    #contatosContainer div{
+        max-width: 40%;
+        margin-bottom: 20px;
+        min-width: 70vw;
+    }
+}
+
+/*
 .conteiner{
     display: flex;
     justify-content: center;
@@ -35,4 +77,4 @@ h3{
 }
 #gmailMobile{
     background-color: red;
-}
+}*/

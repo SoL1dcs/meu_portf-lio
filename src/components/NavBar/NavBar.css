@@ -5,28 +5,53 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+:root{
+    --azul:#0D8BD9;
+}
 
 #container{
+    margin: 0 auto;
     display: flex;
+    background-color: var(--azul);
     justify-content: space-between;
-    justify-items: flex-end;
-    padding: 2% 10%;
-    background-color: #2562A9;
+    align-items: center;
+    padding: 1% 0;
 }
 #containerSon{
     display: flex;
-    justify-content: space-between;
-    align-items:flex-end;
-    gap: 1.5vw;
+    gap: 2vw;
 }
 p{
-    font-size: 1.4vw;
+    color: white;
+    font-size: 1vw;
+}
+#home{
+    font-size: 2.5vw;
+}
+
+/*
+#container{
+    display: flex;
+    justify-items: end;
+    justify-content: space-between;
+    padding: 1% 10%;
+    background-color: #2562A9;
+    gap: 0;
+}
+#containerSon{
+    display: flex;
+    justify-items: end;
+    justify-content: space-around;
+    gap: 1.3vw;
+}
+p{
+    font-size: 1.2vw;
     cursor: pointer;
     color: white;
 }
 #home{
-    font-size: 2.1vw;
-}
+    font-size: 2.5vw;
+}/*
 #containerMobilie{
     background-color: #2562A9;
 }
@@ -47,3 +72,4 @@ p{
 #menuBotao{
     border-radius: 0;
 }
+*/

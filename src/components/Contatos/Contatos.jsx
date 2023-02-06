@@ -6,8 +6,31 @@ import ContatoComponente from './ContatoComponente/ContatoComponente';
 
 function Contatos(){
     return(
-        <div>
-            <div id="contato">
+        <div id='contatosContainer'>
+            <div style={{border:'1px solid blue',borderRadius:'25px'}}>
+                <p className='nomeRede'>LinkedIn</p>
+                <img src={linkedinLogo} />
+                <p className='nickRede'>Erik Oliveira</p>
+                <button style={{backgroundColor:'#0D8BD9'}}>Linkedin</button>
+            </div>
+            <div style={{border:'1px solid red',borderRadius:'25px'}}>
+                <p className='nomeRede'>E-mail</p>
+                <img src={linkedinLogo} />
+                <p className='nickRede'>erikoliveira818@gmail.com</p>
+                <button style={{backgroundColor:'#0D8BD9'}}>Linkedin</button>    
+            </div>
+            <div style={{border:'1px solid pink',borderRadius:'25px'}}>
+                <p className='nomeRede'>Instagram</p>
+                <img src={linkedinLogo} />
+                <p className='nickRede'>@erikoliveira818</p>
+                <button style={{backgroundColor:'#0D8BD9'}}>Linkedin</button>      
+            </div>
+        </div>
+    )
+}
+export default Contatos
+/*
+<div id="contato">
             <div className='conteiner' id='Linkedin'>
                 <div>
                     <h2>LinkedIn</h2>
@@ -48,7 +71,4 @@ function Contatos(){
                 </div>
                 <ContatoComponente id='instaMobile' Rede={'Instagram'} fotoRede={linkFoto} endereco={'@erikoliveira818@gmail.com'} logo={linkedinLogo} txt={'Instagram'} />
             </div>
-        </div>
-    )
-}
-export default Contatos
+*/
