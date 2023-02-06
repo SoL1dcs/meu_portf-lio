@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-end;
+    padding: 2% 10%;
+    background-color: #2562A9;
+}
+#containerSon{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    gap: 1.5vw;
+}
+p{
+    font-size: 1.4vw;
+    cursor: pointer;
+    color: white;
+}
+#home{
+    font-size: 2.1vw;
+}
+#containerMobilie{
+    background-color: #2562A9;
+}
+#containerMobilie{
+    padding: 25px 5%;
+}
+@media (max-width:768px) {
+    #container{
+        display: none;
+    }
+}
+@media (min-width:768px){
+    #containerMobilie{
+        display: none;
+    }
+}
+
+#menuBotao{
+    border-radius: 0;
+}
