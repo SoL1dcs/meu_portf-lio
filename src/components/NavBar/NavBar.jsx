@@ -1,5 +1,9 @@
 import './NavBar.css'
 import menu from '../Image/Menu.png'
+import { Link } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
+
+
 
 function NavBar(){
     return(
@@ -7,18 +11,18 @@ function NavBar(){
         <div id='container'>
             <p id='home'>SoL1d-</p>
             <div id='containerSon'>
-                <p>Sobre Mim</p>
-                <p>Conhecimentos</p>
-                <p>Blog</p>
-                <p>Currículo</p>
-                <p>GitHub</p>
-                <p>Contatos</p>
+                <Link to={'Sobre'}>Sobre Mim</Link>
+                <Link to={'Conhecimentos'}>Conhecimentos</Link>
+                <Link to={'Blog'}>Blog</Link>
+                <Link to={'Curriculo'}>Currículo</Link>
+                <Link to={'gitHub'}>GitHub</Link>
+                <Link to={'contatos'}>Contatos</Link>
             </div>
         </div>
         <div id='containerMobilie'>
             <img id='menuBotao' src={menu}></img>
         </div>
-        
+        <Outlet />
     </div>
     )
 }
