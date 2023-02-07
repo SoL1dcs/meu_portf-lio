@@ -1,20 +1,37 @@
 #contatosContainer{
-    display: flex;
-    text-align: center;
-    padding: 9% 10% 15.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 9% 10% 15.5%
 }
 #contatosContainer div{
     background-color: #FFF;
     min-width: 21vw;
     padding: 10px 0.1vw;
     min-height: 300px;
+    max-height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-#contatosContainer img , #contatosContainer button {
+#contatosContainer img {
     max-height: 50%;
     max-width: 50%;
+    margin: 0 auto;
+}
+#contatosContainer a{
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+#contatosContainer a:hover{
+    opacity: 50%;
+    transition: 0.4s;
+}
+#contatosContainer .fotoContato{
+    max-width: 8vw;
+}
+#contatosContainer a{
     margin: 0 auto;
 }
 .nomeRede{
@@ -31,51 +48,10 @@
 @media (max-width: 768px) {
     #contatosContainer{
         display: block;
-        margin: 0 10%;
     }
     #contatosContainer div{
         max-width: 40%;
         margin-bottom: 20px;
-        min-width: 70vw;
+        min-width: 30vw;
     }
 }
-
-/*
-.conteiner{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    gap: 20%;
-}
-
-h3{
-    font-size: 3vw;
-}
-#email{
-    background-color: red;
-}
-.fotoSocial{
-    min-width: 25vw;
-}
-
-#contatoMobile , #contato{
-    display: none;
-}
-
-#contatoMobile{
-    flex-direction: column;
-}
-
-@media (min-width:768px) {
-    #contato{
-        display:block;
-    }
-}
-@media (max-width:768px){
-    #contatoMobile{
-        display: flex;
-    }
-}
-#gmailMobile{
-    background-color: red;
-}*/

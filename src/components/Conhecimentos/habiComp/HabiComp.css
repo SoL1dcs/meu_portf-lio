@@ -1,8 +1,8 @@
 .habDiv{
     min-height: 25vw;
     background-color: #FFF;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .habDiv img,.habDiv2 img{
     padding-top: 50px;
@@ -12,10 +12,23 @@
 .habDiv2{
     min-height: 25vw;
     background-color: #002FC6;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .habDiv2 P , .habDiv p{
     color: #000;
+}
+
+.nomeLin{
+    text-align: center;
+    color:black;
+    padding: 10px 0;
+    font-size: 3vw;
+}
+.desc_Tittle{
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+    font-size: 1.5vw;
 }
