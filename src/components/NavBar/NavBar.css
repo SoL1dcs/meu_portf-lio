@@ -3,10 +3,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;  
 }
 :root{
-    --azul:#0D8BD9;
+    --azul:#002FC6;
 }
 
 #container{

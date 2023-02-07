@@ -21,9 +21,6 @@ function NavBar(){
                 <Link to={'contatos'}><p>Contatos</p></Link>
             </div>
         </div>
-        <div id='containerMobilie'>
-            <img id='menuBotao' src={menu}></img>
-        </div>
         <Outlet />
     </div>
     )

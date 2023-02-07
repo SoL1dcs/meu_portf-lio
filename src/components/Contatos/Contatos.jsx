@@ -6,7 +6,7 @@ import ContatoComponente from './ContatoComponente/ContatoComponente';
 
 function Contatos(){
     return(
-        <div id='contatosContainer'>
+        <div  id='contatosContainer'>
             <div style={{border:'1px solid blue',borderRadius:'25px'}}>
                 <p className='nomeRede'>LinkedIn</p>
                 <img src={linkedinLogo} />

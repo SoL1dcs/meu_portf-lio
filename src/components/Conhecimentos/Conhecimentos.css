@@ -1,0 +1,40 @@
+body{
+    background-color: #002FC6;
+}
+#webDevHeader{
+    background-color: #5F75D0;
+}
+#FrameWorkHeader{
+    background-color: #2C9BC7;
+}
+#BibliotecasHeader{
+    background-color: #27C7C4;
+}
+#ProtoHeader{
+    background-color: #4BC7A6;
+}
+#LinguaHeader{
+    background-color: #48C798;
+}
+#FrameWork , #Bibliotecas , #Proto , #Lingua {
+    margin: 0;
+    padding: 0;
+}
+.header_img{
+    max-width: 2vw;
+}
+.header_img:hover{
+    transition: 0.3s;
+    opacity: 0.75;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#webDev , #FrameWork , #Bibliotecas, #Proto , #Lingua {
+    display: none;
+}
+.Header{
+    padding: 20px 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}

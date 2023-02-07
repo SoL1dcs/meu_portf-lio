@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-#gitDiv{
+    #gitDiv{
     margin: 0 auto;
-    min-width: 1000px;
+    min-width: 50vw;
 }
 
 #gitDiv p{
-    color: black;
     font-size: 3.5vw;
     margin: 10px 0;
 }
 #gitFoto{
     border-radius: 500%;
     max-width: 23%;
+}
+#meuGitHub p{
+    color:#FFF,
 }
 /*
 *{

@@ -3,7 +3,7 @@ import './ButtonDef.css'
 function ButtonDef(props){
     return(
         <>
-            <button class="button-23" role="button"><img id='fotoLogo' src={props.logo}/>{props.texto}</button>
+            <a href="https://github.com/SoL1dcs"><button class="button-23" role="button" ><img id='fotoLogo' src={props.logo}/>{props.texto} </button></a>
         </>
     )
 }

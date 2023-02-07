@@ -1,0 +1,21 @@
+.habDiv{
+    min-height: 25vw;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+}
+.habDiv img,.habDiv2 img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 25vw;
+}
+.habDiv2{
+    min-height: 25vw;
+    background-color: #002FC6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.habDiv2 P , .habDiv p{
+    color: #000;
+}

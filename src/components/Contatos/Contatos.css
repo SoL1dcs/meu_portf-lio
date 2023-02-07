@@ -1,9 +1,10 @@
 #contatosContainer{
     display: flex;
     text-align: center;
-    margin: 9% 10% 6%;
+    padding: 9% 10% 15.5%;
 }
 #contatosContainer div{
+    background-color: #FFF;
     min-width: 21vw;
     padding: 10px 0.1vw;
     min-height: 300px;
